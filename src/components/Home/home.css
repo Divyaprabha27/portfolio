@@ -1,0 +1,68 @@
+.banner {
+    text-align: center;
+    background-image: url("../../assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+.banner .bnr-cnt {
+    padding-top: 12%;
+}
+.bnr-cnt a {
+    background: #f64c08;
+    margin: 25px auto 0;
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
+.bnr-cnt a:before {
+    position: absolute;
+    content: "";
+    background: #000;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    transition: 0.2s all ease;
+    z-index: -1;
+}
+.bnr-cnt a:focus-visible {
+    outline-offset: 0;
+    outline: 0;
+}
+.bnr-cnt a:hover:before {
+    width: 100%;
+}
+.bnr-cnt h3 {
+    color: #f64c08;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.bnr-cnt h1 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    padding: 15px 0;
+    color: #fff;
+    font-weight: bold;
+}
+.bnr-cnt p {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* MEDIA QUERY */
+@media screen and (max-width: 992px) {
+    .banner {
+        height: auto;
+        padding: 20% 0 10%;
+    }
+}

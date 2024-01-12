@@ -1,0 +1,35 @@
+p {
+    margin-bottom: 0;
+}
+.contact-info {
+    padding: 5% 0;
+    text-align: center;
+}
+.contact-info h4 {
+    padding-bottom: 15px;
+}
+.con-det {
+    border: 1px solid;
+    display: table;
+    margin: 0 auto;
+    padding: 2% 6%;
+    margin-top: 35px;
+}
+.con-det li {
+    list-style: none;
+    line-height: 40px;
+}
+.con-det span {
+    color: #f64c08;
+    font-weight: bold;
+}
+.contact .copyright {
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+} 
+.copyright span {
+    color: #f64c08;
+}
